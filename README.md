@@ -11,7 +11,7 @@ We'll do our best to keep the tools to a minimum so you can focus on the concept
 Once you have an account at Cloud9, set up a new workspace:
 
 * Name your workspace "programming-101-day-1"
-* Within the section labeled "Clone from Git or Mercurial URL (optional)" paste the following url: https://github.com/fgelsomini/programming-101-day-1
+* Within the section labeled "Clone from Git or Mercurial URL (optional)" paste the following url: https://github.com/bitmakerlabs/programming-101-day-1
 * Select "custom" as the workspace type
 
 ## Today's Goals
