@@ -2,29 +2,29 @@ $(document).on('ready', function() {
 
   // Toggle css class denoting completion when items are clicked
   $('.todo a').on('click', function() {
-    $(this).parent().toggleClass('is-complete');
+    // Toggle class on the parent of the clicked element
   });
 
   // Handle events for filter clicks
   $('.todo-filter').on('click', function() {
-    $('.todo-filter').removeClass('is-active');
+    // Remove class that makes a filter "active" for all filters
   });
 
   $('.todo-filter.all').on('click', function() {
-    $('.todo').show();
-    $(this).addClass('is-active');
+    // Show all todos
+    // Make the "all" filter show as active
   });
 
   $('.todo-filter.remaining').on('click', function() {
-    $('.todo').show();
-    $('.todo.is-complete').hide();
-    $(this).addClass('is-active');    
+    // Show all todos
+    // Hide only those that are complete
+    // Make the "remaining" filter show as active
   });
 
   $('.todo-filter.completed').on('click', function() {
-    $('.todo').hide();
-    $('.todo.is-complete').show();
-    $(this).addClass('is-active');    
+    // Hide all todos
+    // Show only todos that are complete
+    // Make the "completed" filter show as active
   });
 
 });

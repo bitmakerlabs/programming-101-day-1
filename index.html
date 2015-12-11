@@ -2,23 +2,25 @@
 <html>
   <head>
     <title>Task List</title>
-    <link href='https://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/styles.css">
+    <!-- Add custom font from Google -->
+    <!-- Add link to our own css stylesheet -->
   </head>
   <body>
 
     <header>
-      <h1>ToDos</h1>
+      <!-- Change heading text to a cool name for your app -->
+      <h1>My Awesome Heading</h1>
     </header>
 
     <main id="todo-panel">
 
       <aside class="todo-empty">
-        <img src="images/spaceship.png" alt="You're done!">
-        <h2>You're all done!</h2>
+        <!-- Add image and H2 heading that we will display when all todos are done -->
       </aside>
 
-      <div class="todos-remaining"><strong>5</strong> items left!</div>
+      <div class="todos-remaining">
+        <!-- Add text indicating how many uncompleted todos are left -->
+      </div>
 
       <ul id="todos-list">
         <li class="todo">
@@ -26,26 +28,7 @@
             Build time machine
           </a>
         </li>
-        <li class="todo is-complete">
-          <a>
-            Travel through time
-          </a>
-        </li>
-        <li class="todo">
-          <a>
-            Meet parents
-          </a>
-        </li>
-        <li class="todo">
-          <a>
-            Convince them to fall in love
-          </a>
-        </li>
-        <li class="todo">
-          <a>
-            Go back to the future
-          </a>
-        </li>
+        <!-- Add 4 more todo itemsto get us back to the future -->
       </ul>
 
       <div id="todos-actions">
@@ -53,23 +36,17 @@
           <li class="todo-filter all is-active">
             <a>All</a>
           </li>
-          <li class="todo-filter remaining">
-            <a>Remaining</a>
-          </li>
-          <li class="todo-filter completed">
-            <a>Completed</a>
-          </li>
+          <!-- Add 2 more filters for remaining and completed -->
         </ul>
       </div>
 
     </main>
 
     <footer>
-      <small>Created in the future at <img src="images/bitmaker.png" alt="Bitmaker" class="footer-wordmark" /></small>
+      <!-- Add some footer text that tells people who created this awesome app! -->
     </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="js/todos.js" charset="utf-8"></script>
+    <!-- Add 2 script tags: 1 to get JQuery from Google CDN, and a second to get our own JavaScript file -->
 
   </body>
 </html>
