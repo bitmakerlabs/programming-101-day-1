@@ -20,6 +20,4 @@ Once you have an account at Cloud9, set up a new workspace:
 * Create an HTML skeleton for a page
 * Understand basic CSS selectors and properties
 * Add various styles to our page
-* Understand basic purpose of JavaScript
-* Why jQuery is useful
-* Add ability to handle browser events and manipulate elements on our page
+* Understand basic purpose of JavaScript (prelude to day 2)
