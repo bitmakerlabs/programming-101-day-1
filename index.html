@@ -18,7 +18,7 @@
         <h2>You're all done!</h2>
       </aside>
 
-      <div class="todos-remaining"><strong>5</strong> items left!</div>
+      <div class="todos-remaining"><strong id="counter">5</strong> items left!</div>
 
       <ul id="todos-list">
         <li class="todo">
@@ -50,13 +50,13 @@
 
       <div id="todos-actions">
         <ul id="todos-filters">
-          <li class="todo-filter all is-active">
+          <li class="todo-filter is-active" id="show-all">
             <a>All</a>
           </li>
-          <li class="todo-filter remaining">
+          <li class="todo-filter" id="show-remaining">
             <a>Remaining</a>
           </li>
-          <li class="todo-filter completed">
+          <li class="todo-filter" id="show-completed">
             <a>Completed</a>
           </li>
         </ul>
@@ -68,7 +68,6 @@
       <small>Created in the future at <img src="images/bitmaker.png" alt="Bitmaker" class="footer-wordmark" /></small>
     </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/todos.js" charset="utf-8"></script>
 
   </body>
