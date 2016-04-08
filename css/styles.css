@@ -1,7 +1,7 @@
 /*
-  Todo List App Styles
+  Task List App Styles
 
-  This file contains all of the styles for the Todo List App.
+  This file contains all of the styles for the Task List App.
   The styles are organized from general to specific, with styles for specific
   parts of the interface prefaced with a commented title.
 */
@@ -43,48 +43,32 @@ a {
   /* add 5 pixels of padding vertically and 10 pixels horizontally */
   /* round the borders with a radius of 3 pixels */
   /* set font size to be 75% smaller than the parent font size */
-  /* add an ease-out transition for all properties which occurs over 0.15 seconds overall */
 }
 
-/* Area to display when all todos are done */
-.todo-empty {
-  /* hide it for now */
-  /* center text */
-  /* add 30 pixels of padding in all directions */
-}
-
-.todo-empty > img {
-  /* limit the width of the image to be a maximum of 150 pixels */
-}
-
-.todo-empty > h2 {
-  /* set the bottom margin to be 0 pixels */
-}
-
-/* Area to display remaining todo count */
-.todos-remaining {
+/* Area to display remaining task count */
+.tasks-remaining {
   /* set font size to be 75% smaller than the root font size */
   /* center text */
   /* set text color to 990000 */
   /* add 20 pixels of padding in all directions */
 }
 
-#todo-panel {
+#task-panel {
   /* make background color white */
   /* set the maximum width to be 500px */
   /* set the vertical margin to be 0 pixels and the horizontal margin to be automatically calculated */
   /* set the bottom margin to be 20 pixels */
 }
 
-/* Todo List Container */
-#todos-list {
+/* Task List Container */
+#tasks-list {
   /* set margin to be 0 pixels in all directions */
   /* set padding to be 0 pixels in all directions */
   /* hide any default bullets that the list would usually display */
 }
 
-/* Individual todo list items and links within */
-.todo {
+/* Individual task list items and links within */
+.task {
   /* set the height to be 50 pixels */
   /* set the element's position to be relative to its normal position */
   /* add a 1 pixel solid border along the bottom that is color e4e4e4 */
@@ -92,68 +76,26 @@ a {
   /* add 10 pixels of padding along the top */
 }
 
-.todo:last-child {
+.task:last-child {
   /* remove the border along the bottom */
 }
 
-.todo > a {
+.task > a {
   /* set the element's position to be relative to its normal position */
   /* move the element 8 pixels down from the top of its normal position */
   /* set the font size to be 20 pixels */
   /* set text color to be black */
-  /* remove padding in all directions */
+  /* add 20px of padding to the left & right only */
 }
 
-.todo > a:hover {
+.task > a:hover {
   /* set text color to be 990000 */
 }
 
-.todo > a::before {
-  /* set the content to be whatever is at the url '../images/unchecked.svg' */
-  /* float element to the left */
-  /* set the right margin to be 10 pixels */
-  /* set the width to be 40 pixels */
-  /* set the height to be 40 pixels */
-}
-
-/* Completed Todos */
-.todo.is-complete > a::before {
-  /* set the content to be whatever is at the url '../images/checked.svg' */
-}
-
-.todo.is-complete > a {
+.task.is-complete > a {
   /* set text color to be ccc */
   /* set font weight to be 200 */
   /* add a line through the text */
-}
-
-/* Todo List footer with filters */
-#todos-actions {
-  /* add a 1 pixel solid border along the top using color e4e4e4 */
-  /* add 20 pixels of padding in all directions */
-  /* center text */
-}
-
-/* Filter List */
-#todos-filters {
-  /* set margin in all directions to be 0 */
-  /* set padding in all directions to be 0 */
-  /* remove any default bullets on the list */
-}
-
-/* Individual filter items */
-.todo-filter {
-  /* change the type of display for this element to be an inline block */
-}
-
-.todo-filter > a:hover {
-  /* set text color to white */
-  /* set background color to 990000 */
-}
-
-.todo-filter.is-active > a {
-  /* set text color to white */
-  /* set background color to 990000 */
 }
 
 /* Bitmaker wordmark in footer */
