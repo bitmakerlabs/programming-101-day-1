@@ -20,7 +20,7 @@ body {
 }
 
 h1 {
-  /* set font  weight to be 200 */
+  /* set font weight to be 200 */
   /* center text */
   /* set color of text to be 990000 */
 }
@@ -30,24 +30,24 @@ footer {
 }
 
 small {
-  /* set font size to be 75% smaller than the root font size */
+  /* set font size to be 25% smaller than root font size */
   /* set font weight to 200 */
   /* set line height to be 50% higher than default */
-  /* set text color to be ccc */
+  /* set text color to be cccccc */
   /* vertically align child elements to the middle of its relative */
 }
 
 a {
   /* set text color to be 990000 */
   /* remove default underlining from text */
-  /* add 5 pixels of padding vertically and 10 pixels horizontally */
+  /* add 5 pixels of padding on both the top and bottom, and 10 pixels on both the left and right (there must be a quick way of doing this...) */
   /* round the borders with a radius of 3 pixels */
-  /* set font size to be 75% smaller than the parent font size */
+  /* set font size to be 25% smaller than the parent font size */
 }
 
 /* Area to display remaining task count */
 .tasks-remaining {
-  /* set font size to be 75% smaller than the root font size */
+  /* set font size to be 25% smaller than the root font size */
   /* center text */
   /* set text color to 990000 */
   /* add 20 pixels of padding in all directions */
@@ -56,8 +56,7 @@ a {
 #task-panel {
   /* make background color white */
   /* set the maximum width to be 500px */
-  /* set the vertical margin to be 0 pixels and the horizontal margin to be automatically calculated */
-  /* set the bottom margin to be 20 pixels */
+  /* set the top margin to be 0 pixels, the bottom margin to be 20 pixels, and the horizontal margin to be automatically calculated */
 }
 
 /* Task List Container */
@@ -104,3 +103,5 @@ a {
   /* set the maximum height to be 20 pixels */
   /* vertically align any child elements to the middle of their parents */
 }
+
+/* You're done! Show a T.A your work, and start customizing your page!
