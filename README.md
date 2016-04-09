@@ -1,4 +1,4 @@
-# Programming 101 - Day 1 - Client Side
+# Programming 101 - Day 1 - HTML, CSS & Basic Javascript
 
 Day one of a weekend workshop at Bitmaker that introduces all of the concepts required to build a simple web application from start to finish. We will explore all the aspects involved in front-end web development, namely HTML, Cascading Style Sheets (CSS) and an introduction to some basic JavaScript.
 
@@ -20,4 +20,4 @@ Once you have an account at Cloud9, set up a new workspace:
 * Create an HTML skeleton for a page
 * Understand basic CSS selectors and properties
 * Add various styles to our page
-* Understand basic purpose of JavaScript (prelude to day 2)
+* Understand basics of JavaScript (prep for day 2)
